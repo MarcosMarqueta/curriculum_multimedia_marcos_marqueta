@@ -1,84 +1,75 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum de Marcos Marqueta</title>
+    <title>Marcos Marqueta's Resume</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <div class="personal-info">
+        <div class="sidebar">
+            <img src="foto_curr.jpg" alt="Photo of Marcos Marqueta" class="profile-photo">
             <h1>Marcos Marqueta</h1>
-            <p>Animador y programador</p>
-            <img src="photo.jpg" alt="Foto de Marcos Marqueta" style="width: 100px; height: auto;">
-            <p>Email: <a href="mailto:marcosmarqueta2002@gmail.com">marcosmarqueta2002@gmail.com</a></p>
-            <p>Dirección: Avenida de Cataluña, 17 3A</p>
-            <p>Teléfono: <a href="tel:+34622959966">622959966</a></p>
-            <p>Fecha de nacimiento: 2002-09-02</p>
-            <p>Nacionalidad: Española</p>
-            <p>Enlace: <a href="https://marcosms.artstation.com" target="_blank">marcosms.artstation.com</a></p>
+            <p class="title">Animator and Programmer</p>
+            <div class="contact-info">
+                <h2>Contact</h2>
+                <p>📞 Phone: <a href="tel:+34622959966">622959966</a></p>
+                <p>
+                    <span style="display: block;">📧 Email:</span>
+                    <a href="mailto:marcosmarqueta2002@gmail.com">marcosmarqueta2002@gmail.com</a>
+                </p>
+                <p>📍 Address: <a href="https://www.google.com/maps/search/?api=1&query=Avenida+de+Cataluña,+17+3A" target="_blank">Avenida de Cataluña, 17 3A</a></p>
+                <p>
+                    <span style="display: block;">🌐 Portfolio:</span>
+                    <a href="https://marcosms.artstation.com" target="_blank">marcosms.artstation.com</a>
+                </p>
+            </div>
+            <div class="additional-info">
+                <h2>Additional Information</h2>
+                <p>🚗 Driver's License</p>
+                <p>✈️ Available to Travel</p>
+            </div>
         </div>
-
-        <div class="objective">
-            <h2>OBJETIVO PROFESIONAL</h2>
-            <p>Profesional joven motivado, apto para el trabajo en equipo y con fuertes habilidades organizativas e interpersonales.</p>
-        </div>
-
-        <div class="section">
-            <h2>EXPERIENCIA</h2>
-            <ul>
-                <li>
-                    <strong>Programador</strong> - Kraken Empire (Abr 2023 - Jun 2023, Zaragoza, España)
-                    <ul>
-                        <li>Cumplimiento de mis objetivos a corto y largo plazo consistentemente para la plaza temporal cubierta</li>
-                        <li>Creación de código propio adaptado a las necesidades del proyecto</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Ayudante de cocina</strong> - McDonald's (May 2022 - Ago 2022, Zaragoza, España)
-                    <ul>
-                        <li>Ayuda tanto en cocina como asistencia a camareros</li>
-                        <li>Organización de cocina e higiene</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>EDUCACIÓN</h2>
-            <ul>
-                <li>
-                    <strong>Grado superior en animación 3D, videojuegos y entornos interactivos</strong> - CPIFP Los Enlaces (Sep 2021 - Jun 2023, Zaragoza, España)
-                </li>
-                <li>
-                    <strong>Bachillerato científico</strong> - IES La Azucarera (Sep 2018 - May 2020, Zaragoza, España)
-                </li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>HABILIDADES</h2>
-            <ul>
-                <li>Programación en el lenguaje C++</li>
-                <li>Uso del motor de videojuegos Unity</li>
-                <li>Uso del programa Blender</li>
-                <li>Trabajo en equipo</li>
-                <li>Resolución de problemas</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>CERTIFICADOS Y CURSOS</h2>
-            <p>Desarrollo de videojuegos con el motor Unity</p>
-        </div>
-
-        <div class="section">
-            <h2>IDIOMAS</h2>
-            <ul>
-                <li><strong>Inglés</strong>: Nivel avanzado. Certificado de nivel C1 por la Universidad de Cambridge</li>
-                <li><strong>Francés</strong>: Nivel básico. Certificado de francés básico</li>
-            </ul>
+        <div class="main-content">
+            <section class="profile">
+                <h2>My Profile</h2>
+                <p>Motivated young professional, suitable for teamwork, with strong organizational and interpersonal skills. Passionate about technology and video game development, committed to continuous improvement and learning new tools.</p>
+            </section>
+            <section class="experience">
+                <h2>Experience</h2>
+                <h3>Programmer - Kraken Empire</h3>
+                <p>Apr 2023 - Jun 2023, Zaragoza, Spain</p>
+                <ul>
+                    <li>Achieved short- and long-term objectives.</li>
+                    <li>Developed customized code tailored to the project.</li>
+                </ul>
+                <h3>Kitchen Assistant - McDonald's</h3>
+                <p>May 2022 - Aug 2022, Zaragoza, Spain</p>
+                <ul>
+                    <li>Provided kitchen support and assisted waitstaff.</li>
+                    <li>Organized kitchen and maintained hygiene standards.</li>
+                </ul>
+            </section>
+            <section class="education">
+                <h2>Education</h2>
+                <p><strong>Advanced Degree in 3D Animation, Video Games, and Interactive Environments</strong> - CPIFP Los Enlaces (2021 - 2023)</p>
+            </section>
+            <section class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Programming in C++</li>
+                    <li>Unity</li>
+                    <li>Blender</li>
+                </ul>
+            </section>
+            <section class="languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li>🇬🇧 English - C1 (Advanced)</li>
+                    <li>🇫🇷 French - Basic</li>
+                </ul>
+            </section>
         </div>
     </div>
 </body>
