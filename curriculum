@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum de Marcos Marqueta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="personal-info">
+            <h1>Marcos Marqueta</h1>
+            <p>Animador y programador</p>
+            <img src="photo.jpg" alt="Foto de Marcos Marqueta" style="width: 100px; height: auto;">
+            <p>Email: <a href="mailto:marcosmarqueta2002@gmail.com">marcosmarqueta2002@gmail.com</a></p>
+            <p>Dirección: Avenida de Cataluña, 17 3A</p>
+            <p>Teléfono: <a href="tel:+34622959966">622959966</a></p>
+            <p>Fecha de nacimiento: 2002-09-02</p>
+            <p>Nacionalidad: Española</p>
+            <p>Enlace: <a href="https://marcosms.artstation.com" target="_blank">marcosms.artstation.com</a></p>
+        </div>
+
+        <div class="objective">
+            <h2>OBJETIVO PROFESIONAL</h2>
+            <p>Profesional joven motivado, apto para el trabajo en equipo y con fuertes habilidades organizativas e interpersonales.</p>
+        </div>
+
+        <div class="section">
+            <h2>EXPERIENCIA</h2>
+            <ul>
+                <li>
+                    <strong>Programador</strong> - Kraken Empire (Abr 2023 - Jun 2023, Zaragoza, España)
+                    <ul>
+                        <li>Cumplimiento de mis objetivos a corto y largo plazo consistentemente para la plaza temporal cubierta</li>
+                        <li>Creación de código propio adaptado a las necesidades del proyecto</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Ayudante de cocina</strong> - McDonald's (May 2022 - Ago 2022, Zaragoza, España)
+                    <ul>
+                        <li>Ayuda tanto en cocina como asistencia a camareros</li>
+                        <li>Organización de cocina e higiene</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>EDUCACIÓN</h2>
+            <ul>
+                <li>
+                    <strong>Grado superior en animación 3D, videojuegos y entornos interactivos</strong> - CPIFP Los Enlaces (Sep 2021 - Jun 2023, Zaragoza, España)
+                </li>
+                <li>
+                    <strong>Bachillerato científico</strong> - IES La Azucarera (Sep 2018 - May 2020, Zaragoza, España)
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>HABILIDADES</h2>
+            <ul>
+                <li>Programación en el lenguaje C++</li>
+                <li>Uso del motor de videojuegos Unity</li>
+                <li>Uso del programa Blender</li>
+                <li>Trabajo en equipo</li>
+                <li>Resolución de problemas</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>CERTIFICADOS Y CURSOS</h2>
+            <p>Desarrollo de videojuegos con el motor Unity</p>
+        </div>
+
+        <div class="section">
+            <h2>IDIOMAS</h2>
+            <ul>
+                <li><strong>Inglés</strong>: Nivel avanzado. Certificado de nivel C1 por la Universidad de Cambridge</li>
+                <li><strong>Francés</strong>: Nivel básico. Certificado de francés básico</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
