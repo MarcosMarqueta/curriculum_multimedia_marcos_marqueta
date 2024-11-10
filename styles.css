@@ -1,15 +1,27 @@
+@page {
+    size: A4;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f4f4f9;
     color: #333;
+    margin: 0;
+    padding: 0;
+    width: 210mm; /* A4 tiene un ancho de 210mm */
+    height: 297mm; /* A4 tiene una altura de 297mm */
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
     display: flex;
-    width: 900px;
+    width: 100%; 
+    max-width: 900px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     background-color: #fff;
     margin: 20px auto;
+    padding: 10px; 
 }
 
 .sidebar {
@@ -18,11 +30,13 @@ body {
     color: #fff;
     padding: 20px;
     text-align: center;
+    flex-shrink: 0;
 }
 
 .main-content {
-    width: 650px;
+    width: calc(100% - 250px);
     padding: 20px;
+    box-sizing: border-box;
 }
 
 .profile-photo {
